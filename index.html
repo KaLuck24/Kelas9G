@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <!-- AOS --> 
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Kelas 9G</title>
+  <link rel="stylesheet" href="Style.css">
+  
+  <link rel="shortcut icon" href="9G.jpg" type="image/x-icon" />
+  
+</head>
+<body>
+    <nav class="wrapper">
+      <div class="navbar">
+        <a href=""><i class="fas fa-angle-right" id="toggle"></i></a>
+      </div>
+       <div class="logo"></div>
+    </nav>
+        <ul id="navigasi" class="navigasi">
+          <img src="9G.jpg" alt="" height="100px">
+          <li><a href="#kelas"><i class="fas fa-address-card"></i>Kelas</a></li>
+          <li><a href="#gallery"><i class="fas fa-images"></i>Galeri</a></li>
+          <li><a href="#prestasi"><i class="fas fa-award"></i>Prestasi</a></li>
+          <li><a href="#about"><i class="fa-solid fa-users"></i> Tentang kami</a></li>
+        </ul>
+    <div class="penutup" id="kelas"></div>
+    <div class="backimg">
+      <img src="Foto.jpg" alt="" width="300px"/>
+      <h1 id="Typ"></h1>
+      <p class="text">Kelas 9G Spense</p>
+      <p class="teks">Have a great day, Wong Cerdas! Buat kamu yang lagi memperjuangkan mimpi dan rencana, teruslah berjuang dan jangan menyerah <em>SEMANGAT !!!</em></p>
+    </div>
+    <div class="kotak"></div>
+    <div id="clock"></div>
+    <div class="gallery" id="gallery" data-aos="fade-down" data-aos-offset="300">
+      <h1>Gallery Kelas</h1>
+      <img class="mySlides" src="Foto2.jpg">
+      <img class="mySlides" src="Foto.jpg">
+      <img class="mySlides" src="Foto3.jpg">
+      <img class="mySlides" src="Foto4.jpg">
+      <img class="mySlides" src="Foto5.jpg">
+      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+     <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    <div class="popup">
+      <div class="popup-content">
+        <h3>Nomer Absen</h3>
+        <ul class="absen">
+          <li><p>1.<span>Abdul Aziz</span></p></li>
+          <li><p>2.<span>Achmad Fachri Faza</span></p></li>
+          <li><p>3.<span>Alma Nuryadi</span></p></li>
+          <li><p>4.<span>Amanda Safira</span></p></li>
+          <li><p>5.<span>Amanda  Septiana</span></p></li>
+          <li><p>6.<span>Atika Rizqiana</span></p></li>
+          <li><p>7.<span>Aulia Zakiyatul Maharoh</span></p></li>
+          <li><p>8.<span>Devi Sang Mentari S.</span></p></li>
+          <li><p>9.<span>Dima Aulia</span></p></li>
+          <li><p>10.<span>Dwi Qonita Maharani</span></p></li>
+          <li><p>11.<span>Faiz Marzuqi</span></p></li>
+          <li><p>12.<span>Feliza Indah</span></p></li>
+          <li><p>13.<span>Hilya Sariyya</span></p></li>
+          <li><p>14.<span>Karina Salsabila</span></p></li>
+          <li><p>15.<span>Luluk Maulida</span></p></li>
+          <li><p>16.<span>Luthfia nafila</span></p></li>
+          <li><p>17.<span>M.Adnan Maulana</span></p></li>
+          <li><p>18.<span>M.Radifka Faza</span></p></li>
+          <li><p>19.<span>Muhammad Chaeruddin</span></p></li>
+          <li><p>20.<span>Muhammad Guntur Oktavio</span></p></li>
+          <li><p>21.<span>Nadzif Baihaqi</span></p></li>
+          <li><p>22.<span>Naura Safira Aulia</span></p></li>
+          <li><p>23.<span>Nur Khotidjah</span></p></li>
+          <li><p>24.<span>Puspita Mayang Sari</span></p></li>
+          <li><p>25.<span>Raffa Uways Achmad</span></p></li>
+          <li><p>26.<span>Rendy Adriansyah</span></p></li>
+          <li><p>27.<span>Salwa Himmatul Ulya</span></p></li>
+          <li><p>28.<span>Uzlifatul Ghofur</span></p></li>
+        </ul>
+      </div>
+      <span class="close"><i class="fa-solid fa-close"></i></span>
+    </div>
+    <div class="Struktur">
+      <div class="Struktur-content">
+        <img src="StrukturOrganisasi9G.png" alt="">
+        </div>
+        <span class="close2"><i class="fa-solid fa-close"></i></span>
+    </div>
+    <button id="button" data-aos="fade-down"><i class="fa-solid fa-eye"></i> Lihat No Absen</button>
+    <button id="button2" data-aos="fade-down"><i class="fa-solid fa-eye"></i> Lihat Struktur Kelas</button>
+    <p class="alarm" data-aos="fade-down"><span>*</span>Klik untuk melihat</p>
+  <div id="prestasi">
+   <div class="prestasi" data-aos="fade-down" data-aos-offset="400" data-aos-duration="1000">
+     <h1>Prestasi Kelas</h1>
+     <ul class="daftar-prestasi">
+       <li><img src="prestasi1.jpg" alt=""></li>
+       <span>
+       <i class="fas fa-angle-down" id="more"></i></span>
+       <div class="explanation" id="explanation">
+         <h1>Lomba Classmeet</h1>
+         <table>
+           <tr>
+             <td>Jenis Lomba</td>
+             <td> : Kebersihan Kelas</td>
+           </tr>
+           <tr>
+             <td>Juara</td>
+             <td> : 3</td>
+           </tr>
+           <tr>
+             <td>Tahun</td>
+             <td> : 2022</td>
+           </tr>
+         </table>
+       </div>
+       <li><img src="prestasi3.jpg" alt=""></li>
+       <span>
+       <i class="fas fa-angle-down" id="more2"></i></span>
+       <div class="explanation2" id="explanation2">
+         <h1>Lomba Classmeet</h1>
+         <table>
+           <tr>
+             <td>Jenis Lomba</td>
+             <td> : Tari Saman</td>
+           </tr>
+           <tr>
+             <td>Juara</td>
+             <td> : 1</td>
+           </tr>
+           <tr>
+             <td>Tahun</td>
+             <td> : 2022</td>
+           </tr>
+         </table>
+       </div>
+     </ul>
+   </div>
+ </div>
+   <div class="line-bottom" data-aos="fade-down" data-aos-delay="400" data-aos-offset="100" data-aos-duration="1000"></div>
+   <div class="message" id="message" data-aos="fade-down" data-aos-offset="200" data-aos-delay="300" data-aos-duration="3000">
+     <h1>KIRIM PESAN/SARAN</h1>
+     <form action="https://formsubmit.co/muhammadradifkafaza@gmail.com" method="POST">
+   <div class="form-content">
+    <label for="exampleInputEmail1" class="form-label">Your Email :</label>
+    <input type="email" name="email" required class="form-control" id="exampleInputEmail1" minlength="5"></div>
+  <div class="form-content">
+    <label for="exampleInputName" class="form-label">To :</label>
+    <input type="text" name="text" required class="form-control" id="exampleInputName" placeholder="Isi sesuai no absen..." minlength="4"></div>
+  <div class="form-content">
+  <label for="exampleFormControlTextarea1" class="form-label">Message :</label>
+  <textarea class="form-control" name="message" required id="exampleFormControlTextarea1" rows="6" cols="25" placeholder="Isi Pesan Anda Disini..." minlength="8"></textarea></div>
+
+  <button type="submit" id="btn-submit">Submit</button>
+</form>
+</div>
+     <!-- <form action="https://formsubmit.co/muhammadradifkafaza@email.com" method="POST">
+       <div class="form-content">
+         <label for="name">Pesan dari :</label>
+         <input type="text" name="nama" id="name" placeholder="Tulis Nama Anda disini.." minlength="3" maxlength="13" required/>
+       </div>
+       <br>
+       <div class="form-content">
+         <label for="name2">Untuk :</label>
+         <input type="email" name="email" id="name2" placeholder="Isi email anda" required/>
+       </div>
+       <div class="form-content">
+         <label for="message"><p class="tag">Isi pesan :</p></label>
+         <textarea name="message" id="message" rows="4" cols="33" placeholder="Masukkan pesan Anda disini...." minlength="8" required></textarea>
+        <input type="reset" name="reset" id="Reset-btn" value="Reset" /> 
+         <button type="submit">Kirim</button>
+       </div>
+     </form> -->
+   
+   <div class="about" data-aos="fade-down" data-aos-offset="100" data-aos-duration="3500" id="about">
+     <h3>Follow Us</h3>
+     <div class="about-content">
+       <a href="https://www.instagram.com/spense_ix.g?igsh=aDNtd25qcXZyb2ts" class="about1"><i class="fa-brands fa-instagram"></i>  Instagram</a>
+      <a href="https://www.instagram.com/ka_0v3rt?igsh=MXg1NGFrcGtjdWwzdQ==" class="about1"><i class="fa-solid fa-user"></i> creator of this website </a>
+        <a href="https://open.spotify.com/user/316qyqdq2nzdhwehgffl4vxrcnmq?si=OcJRTnyST86G-VVqBMaqQw" class="about1"><i class="fab fa-spotify"></i> Spotify</a>
+        <a href="https://10pplg2.my.id" class="about1"><i class="far fa-edit"></i> inspired by the website</a>
+     </div>
+   </div>
+   <div class="note">
+     <p><span>*</span>Click the icon for more</p>
+     <p><span>*</span>Ndak bisa bahasa Inggris</p>
+     <p class="warning"><span>*</span>Created Web 9G Spense</p>
+   </div>
+   <div class="footer">
+     <p>&#169 CopyRight by 9G Spense</p>
+   </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script type="text/javascript" charset="utf-8">
+  const toggle = document.getElementById('toggle');
+  const list = document.getElementById('navigasi');
+  
+  toggle.addEventListener("click", (e)=>{
+    e.preventDefault();
+    toggle.classList.toggle('rotate360')
+    list.classList.toggle('show');
+  });
+  
+  let i = 0;
+const teks = 'Selamat Datang....';
+
+function ketikTeks() {
+  if(i < teks.length){
+    document.getElementById('Typ').innerHTML += teks.charAt(i);
+    i++;
+    setTimeout(ketikTeks,100)
+  }
+}
+window.onload = ketikTeks;
+
+setInterval(() => {
+  let date = new Date();
+  let clock = document.getElementById('clock'); 
+clock.innerHTML = 
+    date.getHours() +":"+
+    date.getMinutes() +":"+
+    date.getSeconds() 
+}, 1000);
+  
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+document.getElementById('button').addEventListener('click', function() {
+  document.querySelector('.popup').style.display = 'flex'
+})
+
+const close = document.querySelector('.close');
+close.addEventListener('click', function() {
+  close.parentElement.style.display = "none";
+});
+
+document.getElementById('button2').addEventListener('click', function() {
+  document.querySelector('.Struktur').style.display = 'flex'
+})
+
+const close2 = document.querySelector('.close2');
+close2.addEventListener('click', function() {
+  close2.parentElement.style.display = "none";
+});
+
+const selengkapnya = document.getElementById('more');
+const upDown = document.getElementById('explanation');
+
+selengkapnya.addEventListener('click', function() {
+  selengkapnya.classList.toggle('rotate180');
+  upDown.classList.toggle('add');
+});
+
+const selengkapnya2 = document.getElementById('more2');
+const upDown2 = document.getElementById('explanation2')
+
+selengkapnya2.addEventListener('click', function() {
+  selengkapnya2.classList.toggle('rotate180');
+  upDown2.classList.toggle('add2');
+});
+
+const terKirim = document.getElementById('btn-submit');
+
+terkirim.addEventListener('submit', function() {
+  alert('Pesan Terkirim');
+});
+</script>
+</body>
+</html>
